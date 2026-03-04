@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internship Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="contact-box">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm" novalidate>
+
+      <!-- NAME -->
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <span class="error-msg" id="nameError"></span>
+
+      <!-- EMAIL -->
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+      <span class="error-msg" id="emailError"></span>
+
+      <!-- MESSAGE -->
+      <label for="message">Message:</label>
+      <textarea id="message"></textarea>
+      <span class="error-msg" id="messageError"></span>
+
+      <button id="submitBtn" disabled>Send Message</button>
+
+    </form>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
